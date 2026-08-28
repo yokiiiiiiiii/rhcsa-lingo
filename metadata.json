@@ -1,0 +1,6 @@
+{
+  "name": "RHCSA Lingo",
+  "description": "Gamified RHCSA certification preparation SPA with interactive terminal and lessons.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

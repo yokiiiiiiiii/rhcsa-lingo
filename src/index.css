@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "Space Mono", monospace;
+  --color-app-bg: #111113;
+  --color-app-ink: #F8F7F4;
+  --color-app-accent: #00FF9D;
+  --color-app-card: #18181A;
+  --color-app-border: #333333;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-app-bg);
+    color: var(--color-app-ink);
+  }
+  
+  ::selection {
+    background-color: var(--color-app-accent);
+    color: var(--color-app-bg);
+  }
+}
